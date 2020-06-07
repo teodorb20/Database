@@ -4,7 +4,7 @@
 #include<vector>
 #include"Matrix.h"
 
-class Table{
+class Table {
 public:
 	/**
 	* Big four
@@ -27,14 +27,22 @@ private:
 protected:
 	/**
 	* "FileName" - write a name in which to save a table
-	* "m_value" - write a value that we check if it is contained
-	* "m_column" - write a column in which we look for whether the "m_value" is contained
-	* "m_column_type" - the column type can be char, int, double ot NULL
-	* "m_column_name" - write a name for the column
 	*/
 	char* FileName;
+	/**
+	* "m_value" - write a value that we check if it is contained
+	*/
 	int m_value;
+	/**
+	* "m_column" - write a column in which we look for whether the "m_value" is contained
+	*/
 	int m_column;
+	/**
+	* "m_column_type" - the column type can be char, int, double ot NULL
+	*/
 	char* m_column_type;
+	/**
+	* "m_column_name" - write a name for the column
+	*/
 	char* m_column_name;
 };

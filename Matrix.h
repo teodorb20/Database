@@ -66,12 +66,18 @@ private:
 protected:
 	/**
 	* m_rows - the rows in the matrix
-	* m_cols - the cols in the matrix
-	* m_mat - with in** we can dynamically allocated matrix
-	* m_name - use for matrix name
 	*/
 	size_t m_rows;
+	/**
+	* m_cols - the cols in the matrix
+	*/
 	size_t m_cols;
+	/**
+	* m_mat - with in** we can dynamically allocated matrix
+	*/
 	int** m_mat;
+	/**
+	* m_name - use for matrix name
+	*/
 	char* m_name;
 };
