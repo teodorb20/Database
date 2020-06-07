@@ -6,11 +6,20 @@
 #include "Matrix.h"
 
 /*
-** Setting maximum values
+** Setting maximum value
 */
 int const MAX_INPUT_SIZE = 11;
+/*
+** Setting maximum value
+*/
 int const MAX_FILENAME_SIZE = 32;
+/*
+** Setting maximum value
+*/
 int const MAX_NAME_SIZE = 32;
+/*
+** Setting maximum value
+*/
 int const MAX_TYPE_SIZE = 7;
 
 class System : protected Table {

@@ -13,18 +13,18 @@ public:
 	~Matrix();
 
 	/**
-	* Get method for rows
-	* it is inline because I define it here
+	* Get method for rows.
+	* It is inline because I define it here
 	*/
 	inline size_t rows() const { return this->m_rows; }
 	/**
-	* Get method cols
-	* it is inline because I define it here
+	* Get method cols.
+	* It is inline because I define it here
 	*/
 	inline size_t cols() const { return this->m_cols; }
 	/**
-	* Get method name
-	* it is inline because I define it here
+	* Get method name.
+	* It is inline because I define it here
 	*/
 	inline const char* name() const { return this->m_name; }
 
